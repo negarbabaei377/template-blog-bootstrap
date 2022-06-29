@@ -1,0 +1,34 @@
+*,
+*::before,
+* ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+
+.bg-success {
+    background-color: rgb(55, 163, 140) !important;
+}
+
+.text-success {
+    color: rgb(55, 163, 140) !important;
+}
+
+.border-secondary {
+    border-color: rgb(167, 165, 165) !important;
+}
+
+hr {
+    height: 2px !important;
+}
+
+.ms-1 {
+    margin-left: 2px !important;
+}
